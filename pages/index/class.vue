@@ -9,17 +9,11 @@
 		data() {
 			return {
 				
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
+			};
 		}
 	}
 </script>
 
-<style>
-	
+<style lang="scss">
+
 </style>

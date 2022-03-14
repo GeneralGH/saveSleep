@@ -3,14 +3,44 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/index/class",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#333366",
+		"borderStyle": "black",
+		"backgroundColor": "#3366cc",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/home.png",
+				"selectedIconPath": "/static/homeClick.png"	
+			},			
+			{
+				"pagePath":"pages/index/class",
+				"text": "分类",
+				"iconPath":"/static/class.png",
+				"selectedIconPath": "/static/classClick.png"	
+			}
+		]
 	}
 }
